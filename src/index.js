@@ -89,6 +89,7 @@ client.on(Events.MessageCreate, async message => {
 			//console.log('Added new person to data: ' + message.author.username);
 		}
 
+		process.env.PERSON_CONUTER = personCounter;
 		console.log(personCounter);
 
 		// let d = new Date();
