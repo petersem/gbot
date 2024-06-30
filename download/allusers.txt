@@ -1,0 +1,556 @@
+All users on server
+29/06/2024, 5:55:28 am
+
+Nickname: null
+Global Name: Aileen
+Username: aileen50
+Joined: 25/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: null
+Username: Readybot.io
+Joined: 14/06/2024
+            BOT
+            Readybot.io
+            @everyone
+
+Nickname: null
+Global Name: Mossy
+Username: mossy_95
+Joined: 16/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Dojocat
+Username: dojocat777_29871
+Joined: 26/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: RBMKII
+Username: rbmkii
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Kimpossibillity
+Global Name: Kim P
+Username: kimp_71247
+Joined: 13/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Scotty hill
+Username: scottyhill
+Joined: 22/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Crackers (UExS)
+Username: crackers0067
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: The Good Simon & Parrot
+Global Name: Fatman
+Username: fatmanaussie
+Joined: 10/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: kennypowers
+Username: _kennypowers
+Joined: 17/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: bipolartuna(MattyS)
+Global Name: Bipolartuna
+Username: bipolartuna
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: lukeloop
+Username: lukeloop
+Joined: 12/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Di
+Username: di4834
+Joined: 24/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: SteveDouglas
+Username: _stevedouglas
+Joined: 23/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: sinnstar
+Username: sinnstar.
+Joined: 26/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Kylie
+Username: kylie078642
+Joined: 10/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            team-social-media-organisers
+            @everyone
+
+Nickname: GROK
+Global Name: Matt 🇦🇺
+Username: .petersem
+Joined: 08/06/2024
+            admin
+            general-view-public
+            moderators
+            team-tech
+            team-moderator
+            general-write-public
+            team-viewers
+            linkmanagers
+            info-editors
+            @everyone
+
+Nickname: null
+Global Name: ArguablyAFL-Siân
+Username: arguablyaflsian
+Joined: 10/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: Kat😻
+Username: katj102
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: Pippa Starr
+Username: pippastarr
+Joined: 08/06/2024
+            admin
+            linkmanagers
+            info-editors
+            @everyone
+
+Nickname: RobertC- Old Bogan Gamer
+Global Name: OldBoganGamer
+Username: oldbogangamer
+Joined: 17/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Tim
+Username: tim.doherty_01309
+Joined: 17/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: seanogarretty
+Username: sean_ogarretty
+Joined: 13/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Jessica
+Username: jessicaml27
+Joined: 15/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: KimP
+Global Name: Kim
+Username: kimmygirl_101
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: labworks
+Username: labworks_82020
+Joined: 27/06/2024
+            @everyone
+
+Nickname: Lan (LeanneD)
+Global Name: Lan
+Username: lanlegend78
+Joined: 13/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: GregC
+Global Name: gr3ggl3s
+Username: gr3ggl3s
+Joined: 26/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: KieranK
+Global Name: President_KK
+Username: president_kk.
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: 🎶JustinL
+Global Name: JustinL
+Username: jsl677156
+Joined: 10/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: EnigmaJim
+Username: enigmajim_93113
+Joined: 13/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: AL- Liason/Morale Officer
+Global Name: Algore
+Username: algore09
+Joined: 10/06/2024
+            general-view-public
+            moderators
+            team-research
+            team-moderator
+            general-write-public
+            team-viewers
+            team- fundraising
+            team-social-media-organisers
+            linkmanagers
+            info-editors
+            @everyone
+
+Nickname: null
+Global Name: Kimba
+Username: kimba07197
+Joined: 12/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Bmose88
+Username: bmose88
+Joined: 28/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Cam
+Username: cam_1988_
+Joined: 25/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Pam
+Username: majestic_lemur_81545
+Joined: 13/06/2024
+            general-view-public
+            team-research
+            team-administrative
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: TimH
+Global Name: The Cloud Searchers
+Username: c.s.g.810
+Joined: 25/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Gillian
+Username: gillian0597
+Joined: 10/06/2024
+            general-view-public
+            team-research
+            team-administrative
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: Webstar1
+Username: webstar1
+Joined: 28/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: PatT
+Global Name: fruityasu
+Username: fruityasu8812
+Joined: 17/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Dan
+Global Name: DazAI
+Username: z16z46
+Joined: 12/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Bernice
+Username: bernice_05435
+Joined: 10/06/2024
+            general-view-public
+            team-research
+            team-administrative
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: Testy McTestFace
+Username: testymctestface_59131
+Joined: 25/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Salty (supervisory vaper)
+Global Name: 𝓢𝓐𝓛𝓣𝓃𝒶𝓉𝒾𝑜𝓃
+Username: saltnation_
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: null
+Username: Sapphire
+Joined: 10/06/2024
+            BOT
+            Sapphire
+            @everyone
+
+Nickname: Adam Deane
+Global Name: Isaac Kael
+Username: isaackael
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: Blue_Ivy88(LucieN)
+Global Name: Blue_ivy88
+Username: blue_ivy88
+Joined: 14/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Darren
+Username: magoo66
+Joined: 10/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: Trish
+Username: trish_26826
+Joined: 27/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: null
+Username: GrokBot
+Joined: 26/06/2024
+            general-view-public
+            general-write-public
+            BOT
+            @everyone
+
+Nickname: null
+Global Name: thebee
+Username: thebee0073
+Joined: 12/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Shredzebra
+Username: shredzebra
+Joined: 24/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Kneel Before ZODISTA
+Username: kneelbeforezodista
+Joined: 23/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: damidnightshadow🇦🇺
+Username: damidnightshadow
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Samantha
+Global Name: SamBarratt
+Username: sambarratt.
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: kev
+Username: kevcub_27
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Tony “Red Barron”
+Global Name: null
+Username: redbarron9193
+Joined: 25/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Kyle Usher
+Global Name: Kyle Usher
+Username: ush0828_88732
+Joined: 18/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Bludn_Gore
+Username: bludn_gore
+Joined: 27/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Tash (UI Assist)
+Global Name: Tash
+Username: tash002tash
+Joined: 10/06/2024
+            general-view-public
+            general-write-public
+            team-viewers
+            @everyone
+
+Nickname: null
+Global Name: Charlie McCracken
+Username: charliemccracken
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Stephen Cordwell
+Global Name: CaptainAwesome
+Username: fellowhuman3000
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Michael Taylor
+Username: michaeltaylor7522
+Joined: 27/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Sir Didymus
+Username: the_sir_didymus_88400
+Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: null
+Username: craigkingvapealotqld
+Joined: 27/06/2024
+            general-view-public
+            general-write-public
+            @everyone
