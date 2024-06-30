@@ -1,4 +1,3 @@
-
 const { Client, Collection, Events, IntentsBitField, Guild, messageLink, GatewayIntentBits } = require('discord.js');
 require('dotenv').config();
 const fs = require('node:fs');
@@ -73,27 +72,33 @@ client.on(Events.MessageCreate, async message => {
 	if (message.guild) {
 
 		//if (message.content.startsWith('mjp')) {
-			//console.log(personCounter);
-			//console.log('-------------------------');
-			var foundIndex = personCounter.findIndex( arrayItem => arrayItem.name == message.author.username );
-			if (foundIndex != -1) {
-//				console.log('found!!');
-//				console.log('Index: ' + foundIndex);
-//				console.log(personCounter[foundIndex]);
-				personCounter[foundIndex].messageCount++
-				//console.log(personCounter[foundIndex]);
-			}
-			else{
-				// create a new array entry with a count of 1
-				var newPerson = {"name": message.author.username, "messageCount": 1}
-				personCounter.push(newPerson);
-				//console.log('Added new person to data: ' + message.author.username);
-			}
+		//console.log(personCounter);
+		//console.log('-------------------------');
+		var foundIndex = personCounter.findIndex(arrayItem => ((arrayItem.name == message.author.username) && (arrayItem.channel == message.channel.name)));
+		if (foundIndex != -1) {
+			//				console.log('found!!');
+			//				console.log('Index: ' + foundIndex);
+			//				console.log(personCounter[foundIndex]);
+			personCounter[foundIndex].messageCount++
+//			console.log(personCounter[foundIndex]);
+		}
+		else {
+			// create a new array entry with a count of 1
+			var newPerson = { "channel": message.channel.name, "name": message.author.username, "messageCount": 1 }
+			personCounter.push(newPerson);
+			//console.log('Added new person to data: ' + message.author.username);
+		}
 
-			console.log(personCounter);
-			//return message.channel.send(`Author: ${message.author} - test`);
+		console.log(personCounter);
 
-	//	}
+		// let d = new Date();
+		// console.log(d.toUTCString());
+		// fs.unlinkSync('src/data/' + 'xx' + '.json');
+
+		// var writeStream = fs.createWriteStream('src/data/' + 'xx' + '.json');
+		// writeStream.write(JSON.stringify(personCounter));
+		// writeStream.end();
+
 	}
 
 
