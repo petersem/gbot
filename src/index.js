@@ -7,21 +7,17 @@ const path = require('node:path');
 //const { noac } = require('./functions/noaccess.js');
 const { deploy } = require('./deploy-commands.js');
 const Deploy = require('./deploy-commands.js');
-
+let personCounter = [];
 
 const client = new Client({
-    intents: [
-        IntentsBitField.Flags.Guilds,
-        IntentsBitField.Flags.GuildMembers,
-        IntentsBitField.Flags.GuildMessages,
-        IntentsBitField.Flags.MessageContent,
-        IntentsBitField.Flags.GuildMembers
-    ]
+	intents: [
+		IntentsBitField.Flags.Guilds,
+		IntentsBitField.Flags.GuildMembers,
+		IntentsBitField.Flags.GuildMessages,
+		IntentsBitField.Flags.MessageContent,
+		IntentsBitField.Flags.GuildMembers
+	]
 });
-
-
-const dep = new Deploy();
-dep.UpdateSlashCmds();
 
 
 client.commands = new Collection();
@@ -43,9 +39,10 @@ for (const folder of commandFolders) {
 }
 
 client.once(Events.ClientReady, readyClient => {
-	console.log(`
-GrokBot logged in as ${readyClient.user.tag} 
------------------------------------`);
+	console.log(`********* GROKBOT STARTED *********`);
+	console.log(` - GrokBot logged in as ${readyClient.user.tag}`);
+	const dep = new Deploy();
+	dep.UpdateSlashCmds();
 });
 
 client.on(Events.InteractionCreate, async interaction => {
@@ -69,6 +66,41 @@ client.on(Events.InteractionCreate, async interaction => {
 		}
 	}
 });
+
+client.on(Events.MessageCreate, async message => {
+	if (message.author.bot) return;
+
+	if (message.guild) {
+
+		//if (message.content.startsWith('mjp')) {
+			//console.log(personCounter);
+			//console.log('-------------------------');
+			var foundIndex = personCounter.findIndex( arrayItem => arrayItem.name == message.author.username );
+			if (foundIndex != -1) {
+//				console.log('found!!');
+//				console.log('Index: ' + foundIndex);
+//				console.log(personCounter[foundIndex]);
+				personCounter[foundIndex].messageCount++
+				//console.log(personCounter[foundIndex]);
+			}
+			else{
+				// create a new array entry with a count of 1
+				var newPerson = {"name": message.author.username, "messageCount": 1}
+				personCounter.push(newPerson);
+				//console.log('Added new person to data: ' + message.author.username);
+			}
+
+			console.log(personCounter);
+			//return message.channel.send(`Author: ${message.author} - test`);
+
+	//	}
+	}
+
+
+});
+
+
+
 
 client.login(process.env.TOKEN);
 
