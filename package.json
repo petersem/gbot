@@ -1,6 +1,6 @@
 {
   "name": "grokbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GROKs first BOT",
   "main": "src/index.js",
   "scripts": {
