@@ -1,0 +1,5 @@
+# GrokBot
+#### Custom Discord BOT.
+
+
+

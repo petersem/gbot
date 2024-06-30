@@ -1,0 +1,15 @@
+{
+    "facts": [
+        {"fact": "*Nicotine* is **not harmful** to your health"},
+        {"fact": "*EVALI* is **not** caused by vaping nicotine. It *is* caused by black market THC vapes with *vitamin E acetate*"},
+        {"fact": "There has **never** been a case of *Popcorn lung* in Australia. The ingredients that cause this are *banned* in the country."},
+        {"fact": "Vaping **does not** cause cancer, siezures, or lung scarring."},
+        {"fact": "Vape stores **do not** sell nicotine products"},
+        {"fact": "Vape stores **do not** sell to children"},
+        {"fact": "Disposable nicotine vapes have *always* been illegal"},
+        {"fact": "Children obtain disposable vapes from the black market, **not** vape stores"},
+        {"fact": "Adults *enjoy* vape flavours too."},
+        {"fact": "Vaping is *at least* 95% safer than smoking"},
+        {"fact": "Vaping is **not** a gateway to smoking"}
+    ]
+}

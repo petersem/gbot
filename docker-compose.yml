@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  grokbot:
+    image: grokbot
+    container_name: grokbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+      TOKEN: $TOKEN
+
