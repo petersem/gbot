@@ -1,8 +1,8 @@
 const { REST, Routes } = require('discord.js');
-const { clientId, guildId, token } = require('./config.json');
+//const { clientId, guildId, token } = require('./config.json');
 const fs = require('node:fs');
 const path = require('node:path');
-require('dotenv').config();
+//require('dotenv').config();
 
 const commands = [];
 // Grab all the command folders from the commands directory you created earlier
@@ -14,7 +14,7 @@ class Deploy {
 		return;
 	}
 
-	UpdateSlashCmds() {
+	UpdateSlashCmds(clientId, guildId) {
 		for (const folder of commandFolders) {
 			// Grab all the command files from the commands directory you created earlier
 			const commandsPath = path.join(foldersPath, folder);

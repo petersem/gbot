@@ -1,7 +1,7 @@
  # ignore the following folders and files
 node_modules/*
 .env
-config.json
+#config.json
 
 # any excluded dir with a .keep file. Will stay in github, but all other files will not :)
 !.keep

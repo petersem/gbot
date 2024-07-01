@@ -1,5 +1,5 @@
 const { Client, Collection, Events, IntentsBitField, Guild, messageLink, GatewayIntentBits } = require('discord.js');
-require('dotenv').config();
+//require('dotenv').config();
 const fs = require('node:fs');
 const path = require('node:path');
 const mysql = require('mysql2');
@@ -51,8 +51,11 @@ client.once(Events.ClientReady, readyClient => {
 	console.log(`********* GROKBOT STARTED *********`);
 	console.log(` - GrokBot logged in as ${readyClient.user.tag}`);
 	const dep = new Deploy();
-	dep.UpdateSlashCmds();
+//	console.log(client.user.id);
+
+	dep.UpdateSlashCmds(process.env.CLIENT_ID, process.env.GUILD_ID);
 });
+
 
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
