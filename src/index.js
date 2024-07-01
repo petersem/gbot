@@ -2,6 +2,8 @@ const { Client, Collection, Events, IntentsBitField, Guild, messageLink, Gateway
 require('dotenv').config();
 const fs = require('node:fs');
 const path = require('node:path');
+const mysql = require('mysql2');
+
 //const { token } = require('./config.json');
 //const { noac } = require('./functions/noaccess.js');
 const { deploy } = require('./deploy-commands.js');
@@ -18,6 +20,14 @@ const client = new Client({
 	]
 });
 
+// connecting Database
+const connection = mysql.createPool({
+    host: process.env.GBOT_DB_SERVER,
+    user: process.env.GBOT_USER,
+	port: process.env.GBOT_DB_PORT,
+    password: process.env.GBOT_PSW,
+    database: process.env.GBOT_DB,
+  });
 
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'commands');
@@ -71,25 +81,32 @@ client.on(Events.MessageCreate, async message => {
 
 	if (message.guild) {
 
-		//if (message.content.startsWith('mjp')) {
-		//console.log(personCounter);
-		//console.log('-------------------------');
-		var foundIndex = personCounter.findIndex(arrayItem => ((arrayItem.name == message.author.username) && (arrayItem.channel == message.channel.name)));
-		if (foundIndex != -1) {
-			//				console.log('found!!');
-			//				console.log('Index: ' + foundIndex);
-			//				console.log(personCounter[foundIndex]);
-			personCounter[foundIndex].messageCount++
-//			console.log(personCounter[foundIndex]);
-		}
-		else {
-			// create a new array entry with a count of 1
-			var newPerson = { "channel": message.channel.name, "name": message.author.username, "messageCount": 1 }
-			personCounter.push(newPerson);
-			//console.log('Added new person to data: ' + message.author.username);
-		}
+// 		//if (message.content.startsWith('mjp')) {
+// 		//console.log(personCounter);
+// 		//console.log('-------------------------');
+// 		var foundIndex = personCounter.findIndex(arrayItem => ((arrayItem.name == message.author.username) && (arrayItem.channel == message.channel.name)));
+// 		if (foundIndex != -1) {
+// 			//				console.log('found!!');
+// 			//				console.log('Index: ' + foundIndex);
+// 			//				console.log(personCounter[foundIndex]);
+// 			personCounter[foundIndex].messageCount++
+// //			console.log(personCounter[foundIndex]);
+// 		}
+// 		else {
+// 			// create a new array entry with a count of 1
+// 			var newPerson = { "channel": message.channel.name, "name": message.author.username, "messageCount": 1 }
+// 			personCounter.push(newPerson);
+// 			//console.log('Added new person to data: ' + message.author.username);
+// 		}
+// console.log(personCounter);
+		let d = new Date();
+		const [{ insertId }] = await connection.promise().query(
+			`INSERT INTO traffic (logged_date, guild_id, name, channel) 
+          		VALUES (?, ?, ?, ?)`,
+				[d, message.guildId,message.author.username, message.channel.name]
+		  );
 
-		console.log(personCounter);
+		// console.log(personCounter);
 
 		// let d = new Date();
 		// console.log(d.toUTCString());
