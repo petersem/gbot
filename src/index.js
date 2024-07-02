@@ -1,5 +1,5 @@
 const { Client, Collection, Events, IntentsBitField, Guild, messageLink, GatewayIntentBits } = require('discord.js');
-//require('dotenv').config();
+require('dotenv').config();
 const fs = require('node:fs');
 const path = require('node:path');
 const mysql = require('mysql2');
@@ -19,6 +19,8 @@ const client = new Client({
 		IntentsBitField.Flags.GuildMembers
 	]
 });
+
+//console.log(process.env.GBOT_DB_SERVER,process.env.GBOT_USER,process.env.GBOT_DB_PORT,process.env.GBOT_PSW,process.env.GBOT_DB);
 
 // connecting Database
 const connection = mysql.createPool({
@@ -103,10 +105,19 @@ client.on(Events.MessageCreate, async message => {
 // 		}
 // console.log(personCounter);
 		let d = new Date();
+		let nameToUse = "";
+		if (message.member.nickname != null)
+			{nameToUse=message.member.nickname}
+		else if (message.author.globalName != null)
+			{nameToUse=message.author.globalName}
+		else 
+			{nameToUse=message.author.username}
+
+		//console.log(message.member.nickname,message.author.globalName,message.author.username);
 		const [{ insertId }] = await connection.promise().query(
 			`INSERT INTO traffic (logged_date, guild_id, name, channel) 
           		VALUES (?, ?, ?, ?)`,
-				[d, message.guildId,message.author.username, message.channel.name]
+				[d, message.guildId, nameToUse, message.channel.name]
 		  );
 
 		// console.log(personCounter);

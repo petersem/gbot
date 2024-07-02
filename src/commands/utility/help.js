@@ -8,23 +8,21 @@ module.exports = {
 	async execute(interaction) {
 		let output = `
 ## GrokBot Commands 
-> ***ONLY*** *you will see the results of all of these commmands*
-
-\`Restricted\` **/allusers** 
-- Lists all people on the ALIVE serer.
+> ***ONLY YOU*** *will see the results of all of these commmands*
 
 **/fact** 
 - Sends you a random vaping fact
-
 **/help** 
 - Generates this message
-
 **/insult** *person*
 - Displays a random **NSFW** insult for your favourite selected anti-vaper
+**/stats** 
+- Shows channel and user stats for last 7 (rolling) days 
 
-\`Restricted\` **/noaccess** 
+**/allusers** \`Restricted Access\`
+- Lists all people on the ALIVE serer.
+**/noaccess** \`Restricted Access\`
 - Lists all people who have not agreed to the group rules. 
-
 `
 		await interaction.reply({ content: output, ephemeral: true });
 		let d = new Date();

@@ -13,8 +13,14 @@ module.exports = {
 				.addChoices(
 					{ name: 'Albanese', value: 'Elbow, '},
 					{ name: 'Butler', value: 'Butthole, '},
-					{ name: 'Chapman', value: 'Simon Chapman, '},
-					{ name: 'Hunt', value: 'Greg Hunt, '}
+					{ name: 'Chapman', value: 'Chapman, '},
+					{ name: 'Davey', value: 'Melissa, '},
+					{ name: 'Freeman', value: 'Becky, '},
+					{ name: 'Hunt', value: 'G-Hunt, '},
+					{ name: 'Sandro', value: 'Sandro, '},
+					{ name: 'Slevin', value: 'Terry, '},
+					{ name: 'Sweet', value: 'Mel, '},
+					{ name: 'Tahir', value: 'Tahir, '}
 				)
 			),
 

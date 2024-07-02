@@ -22,15 +22,19 @@ module.exports = {
 
 		con.connect(function(err) {
 			if (err) throw err;
-			console.log("Connected!");
-			let sql = `SELECT COUNT(name) AS Count, channel
+			//console.log("Connected!");
+			let sql = `SELECT COUNT(name) as count, channel
 FROM traffic
-GROUP BY channel`;
+WHERE logged_date >= ( CURDATE() - INTERVAL 7 DAY )
+AND channel <> '🪳-tech-testing'
+AND channel <> '👋-lobby'
+GROUP BY channel
+ORDER BY count DESC`;
 			con.query(sql, function (err, result) {
 				if (err) throw err;
-				output = `## Channel Message Count\n`
+				output = `## Channel Message Count (7 days)\n`
 				result.forEach(element => {
-					output+= element.Count + `    ` + element.channel + `\n`
+					output+= `${element.count.toString().padEnd(5)}` + element.channel + `\n`
 				});
 
 			  	// interaction.reply(output);
@@ -38,16 +42,18 @@ GROUP BY channel`;
 
 			});
 
-			sql = `SELECT COUNT(name) as count, name
+			sql = `SELECT COUNT(name)as count, name
 FROM traffic
+WHERE logged_date >= ( CURDATE() - INTERVAL 1 DAY )
+AND channel <> '🪳-tech-testing'
 GROUP BY name
 ORDER BY COUNT(name) DESC
-LIMIT 5`;
+LIMIT 10`;
 						con.query(sql, function (err, result) {
 							if (err) throw err;
-							output += `\n## Top 5 Users by Message Count\n`
+							output += `\n## Top 10 Users by Message Count (7 days)\n`
 							result.forEach(element => {
-								output+= element.count + `    ` + element.name + `\n`
+								output+= `${element.count.toString().padEnd(5)}` + element.name + `\n`
 							});
 			
 							  // interaction.reply(output);
