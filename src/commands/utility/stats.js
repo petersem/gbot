@@ -20,9 +20,11 @@ module.exports = {
 
 		let output = "";
 
-		con.connect(function(err) {
+		con.connect(function (err) {
 			if (err) throw err;
 			//console.log("Connected!");
+
+			// count for messages in channels
 			let sql = `SELECT COUNT(name) as count, channel
 FROM traffic
 WHERE logged_date >= ( CURDATE() - INTERVAL 7 DAY )
@@ -34,35 +36,55 @@ ORDER BY count DESC`;
 				if (err) throw err;
 				output = `## Channel Message Count (7 days)\n`
 				result.forEach(element => {
-					output+= `${element.count.toString().padEnd(5)}` + element.channel + `\n`
+					output += `${element.count.toString().padEnd(5)}` + element.channel + `\n`
 				});
 
-			  	// interaction.reply(output);
+				// interaction.reply(output);
 				//interaction.reply({content: output, ephemeral: true});
 
 			});
 
+			// count for messages in week
 			sql = `SELECT COUNT(name)as count, name
 FROM traffic
-WHERE logged_date >= ( CURDATE() - INTERVAL 1 DAY )
+WHERE logged_date >= ( CURDATE() - INTERVAL 7 DAY )
 AND channel <> '🪳-tech-testing'
 GROUP BY name
 ORDER BY COUNT(name) DESC
 LIMIT 10`;
-						con.query(sql, function (err, result) {
-							if (err) throw err;
-							output += `\n## Top 10 Users by Message Count (7 days)\n`
-							result.forEach(element => {
-								output+= `${element.count.toString().padEnd(5)}` + element.name + `\n`
-							});
-			
-							  // interaction.reply(output);
-							interaction.reply({content: output, ephemeral: true});
-			
-						});
-		  });
+			con.query(sql, function (err, result) {
+				if (err) throw err;
+				output += `\n## Top 10 Users by Message Count (7 days)\n`
+				result.forEach(element => {
+					output += `${element.count.toString().padEnd(5)}` + element.name + `\n`
+				});
+
+				// interaction.reply(output);
+				//interaction.reply({ content: output, ephemeral: true });
+
+			});
+
+			// count for days of week
+			sql = `SELECT COUNT(name)as count, DAY(joined_date) as day
+FROM joined
+WHERE joined_date >= ( CURDATE() - INTERVAL 14 DAY )
+GROUP BY day
+ORDER BY day`;
+			con.query(sql, function (err, result) {
+				if (err) throw err;
+				output += `\n## Number of new members (14 days)\n`
+				result.forEach(element => {
+					output += `Day of month: ${element.day.toString().padEnd(5)} - New members: ${element.count.toString().padEnd(5)}` + `\n`
+				});
+				//output += `${result[0].count}`;
+
+				// interaction.reply(output);
+				interaction.reply({ content: output, ephemeral: true });
+
+			});
 
 
+		});
 
 	},
 };

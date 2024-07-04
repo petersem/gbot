@@ -81,29 +81,31 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
+
+// record when new users join
+client.on('guildMemberAdd', async member => {
+	let d = new Date();
+	let nameToUse = "";
+	if (member.user.globalName != null)
+		{nameToUse=member.user.globalName}
+	else 
+		{nameToUse=member.user.username}
+
+	// add to db
+	const [{ insertId }] = await connection.promise().query(
+		`INSERT INTO joined (joined_date, guild, name) 
+        VALUES (?, ?, ?)`,
+		[d, member.guild.name, nameToUse]
+	);		
+});
+
+
+// capture the number of messages sent  
 client.on(Events.MessageCreate, async message => {
+	// ignore any messages from BOTs
 	if (message.author.bot) return;
 
 	if (message.guild) {
-
-// 		//if (message.content.startsWith('mjp')) {
-// 		//console.log(personCounter);
-// 		//console.log('-------------------------');
-// 		var foundIndex = personCounter.findIndex(arrayItem => ((arrayItem.name == message.author.username) && (arrayItem.channel == message.channel.name)));
-// 		if (foundIndex != -1) {
-// 			//				console.log('found!!');
-// 			//				console.log('Index: ' + foundIndex);
-// 			//				console.log(personCounter[foundIndex]);
-// 			personCounter[foundIndex].messageCount++
-// //			console.log(personCounter[foundIndex]);
-// 		}
-// 		else {
-// 			// create a new array entry with a count of 1
-// 			var newPerson = { "channel": message.channel.name, "name": message.author.username, "messageCount": 1 }
-// 			personCounter.push(newPerson);
-// 			//console.log('Added new person to data: ' + message.author.username);
-// 		}
-// console.log(personCounter);
 		let d = new Date();
 		let nameToUse = "";
 		if (message.member.nickname != null)
@@ -119,25 +121,10 @@ client.on(Events.MessageCreate, async message => {
           		VALUES (?, ?, ?, ?)`,
 				[d, message.guildId, nameToUse, message.channel.name]
 		  );
-
-		// console.log(personCounter);
-
-		// let d = new Date();
-		// console.log(d.toUTCString());
-		// fs.unlinkSync('src/data/' + 'xx' + '.json');
-
-		// var writeStream = fs.createWriteStream('src/data/' + 'xx' + '.json');
-		// writeStream.write(JSON.stringify(personCounter));
-		// writeStream.end();
-
 	}
-
-
 });
 
-
-
-
+// login to server
 client.login(process.env.TOKEN);
 
 
