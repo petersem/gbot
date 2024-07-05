@@ -16,9 +16,11 @@ const client = new Client({
 		IntentsBitField.Flags.GuildMembers,
 		IntentsBitField.Flags.GuildMessages,
 		IntentsBitField.Flags.MessageContent,
-		IntentsBitField.Flags.GuildMembers
+		IntentsBitField.Flags.GuildMembers,
+		IntentsBitField.Flags.GuildPresences
 	]
 });
+
 
 //console.log(process.env.GBOT_DB_SERVER,process.env.GBOT_USER,process.env.GBOT_DB_PORT,process.env.GBOT_PSW,process.env.GBOT_DB);
 
@@ -54,6 +56,9 @@ client.once(Events.ClientReady, readyClient => {
 	console.log(` - GrokBot logged in as ${readyClient.user.tag}`);
 	const dep = new Deploy();
 //	console.log(client.user.id);
+
+// console.log(onlineMembers);
+
 
 	dep.UpdateSlashCmds(process.env.CLIENT_ID, process.env.GUILD_ID);
 });

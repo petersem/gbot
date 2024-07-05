@@ -19,7 +19,16 @@ module.exports = {
 			database: process.env.GBOT_DB,
 		});
 
+        // const c = interaction.client;
+        // const cGuild = c.guilds.resolve(interaction.guildId);
+		
 
+        // let onlineMembers = (await cGuild.members.fetch()).filter((member) => console.log(member.presence) );
+
+		//; // Remove the bot check as per use
+		//console.log(onlineMembers);
+
+		let totalMembers = interaction.guild.members.memberCount;
 
 		con.connect(function (err) {
 			if (err) throw err;
@@ -83,7 +92,7 @@ ORDER BY joined_date ASC`;
 					data.push(element.count.toString());
 					total += element.count;
 				});
-				output += 'Total new members: ' + total;
+				output += 'Total new members: ' + total + "   Total members: " + interaction.guild.memberCount;
 				output += `\n`;
 
 				// interaction.reply(output);
@@ -98,7 +107,7 @@ ORDER BY joined_date ASC`;
 						"labels": labels,
 						"datasets": [
 							{
-								"label": "Member Growth",
+								"label": "Daily count",
 								"borderColor": "rgb(54, 162, 235)",
 								"backgroundColor": "rgba(54, 162, 235, .5)",
 								"data": data
@@ -108,7 +117,7 @@ ORDER BY joined_date ASC`;
 					"options": {
 						"title": {
 							"display": true,
-							"text": "ALIVE Movement"
+							"text": "ALIVE Member Growth - Monthly"
 						},
 						"scales": {
 							"xAxes": [

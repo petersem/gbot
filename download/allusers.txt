@@ -1,10 +1,34 @@
 All users on server
-30/06/2024, 3:15:11 pm
+05/07/2024, 9:55:00 pm
+
+Nickname: null
+Global Name: Mat S TFR
+Username: tradingrepublic
+Joined: 02/07/2024
+            general-view-public
+            general-write-public
+            @everyone
 
 Nickname: null
 Global Name: Aileen
 Username: aileen50
 Joined: 25/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Belinda R
+Username: belindarossy
+Joined: 05/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Dee
+Username: deeva_wow
+Joined: 02/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -18,6 +42,14 @@ Joined: 14/06/2024
             @everyone
 
 Nickname: null
+Global Name: OzCableguy
+Username: ozcableguy
+Joined: 01/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
 Global Name: Wilso
 Username: wilso0346
 Joined: 29/06/2024
@@ -26,9 +58,19 @@ Joined: 29/06/2024
             @everyone
 
 Nickname: null
+Global Name: SidetrackedSearchingCig
+Username: trappmusing
+Joined: 04/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
 Global Name: Trena
 Username: trena1970
 Joined: 29/06/2024
+            general-view-public
+            general-write-public
             @everyone
 
 Nickname: null
@@ -72,6 +114,12 @@ Joined: 22/06/2024
             @everyone
 
 Nickname: null
+Global Name: skittles
+Username: skittles6157
+Joined: 02/07/2024
+            @everyone
+
+Nickname: null
 Global Name: Crackers (UExS)
 Username: crackers0067
 Joined: 11/06/2024
@@ -79,7 +127,7 @@ Joined: 11/06/2024
             general-write-public
             @everyone
 
-Nickname: The Good Simon & Parrot
+Nickname: Simon &🦜-Role😈's Advocate
 Global Name: Fatman
 Username: fatmanaussie
 Joined: 10/06/2024
@@ -96,7 +144,7 @@ Joined: 29/06/2024
             general-write-public
             @everyone
 
-Nickname: null
+Nickname: AdamR
 Global Name: xXDODGAXx
 Username: xxdodgaxx
 Joined: 30/06/2024
@@ -136,10 +184,32 @@ Joined: 12/06/2024
             general-write-public
             @everyone
 
+Nickname: null
+Global Name: Dimster
+Username: dimster0275
+Joined: 01/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
 Nickname: Di -X CN Boss👩💼
 Global Name: Di
 Username: di4834
 Joined: 24/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: 049889
+Username: 049889
+Joined: 02/07/2024
+            @everyone
+
+Nickname: null
+Global Name: Anne
+Username: anne_95221
+Joined: 03/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -168,7 +238,7 @@ Joined: 29/06/2024
             general-write-public
             @everyone
 
-Nickname: Kylie - Role- Instagram Boss
+Nickname: Kylie - PR & Instagram Boss
 Global Name: Kylie
 Username: kylie078642
 Joined: 10/06/2024
@@ -176,6 +246,14 @@ Joined: 10/06/2024
             general-write-public
             team-viewers
             team-social-media-organisers
+            @everyone
+
+Nickname: Gaz
+Global Name: null
+Username: jamesbondsnutsackinspectre
+Joined: 03/07/2024
+            general-view-public
+            general-write-public
             @everyone
 
 Nickname: GROK
@@ -245,6 +323,14 @@ Joined: 17/06/2024
             @everyone
 
 Nickname: null
+Global Name: MudFlaps
+Username: _mudflaps
+Joined: 02/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
 Global Name: seanogarretty
 Username: sean_ogarretty
 Joined: 13/06/2024
@@ -291,10 +377,26 @@ Joined: 29/06/2024
             team-social-media-organisers
             @everyone
 
-Nickname: Lan (LeanneD)
+Nickname: null
+Global Name: Earlwood
+Username: earlwood.
+Joined: 04/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Lan (LeanneD)- Role SM Debunker
 Global Name: Lan
 Username: lanlegend78
 Joined: 13/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Garry
+Username: garry017837
+Joined: 01/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -311,6 +413,14 @@ Nickname: KieranK
 Global Name: President_KK
 Username: president_kk.
 Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: PeterA
+Global Name: chopchop
+Username: chopchop2323_93661
+Joined: 02/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -357,9 +467,33 @@ Joined: 12/06/2024
             @everyone
 
 Nickname: null
+Global Name: Dimster
+Username: dimster_42229
+Joined: 01/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Ellie
+Username: royal_aussie
+Joined: 01/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
 Global Name: Vee 🐱😷🌻🌞🇦🇺🏳🌈
 Username: vee004629
 Joined: 29/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: Phattboii(NeilS)
+Global Name: PhattBoii
+Username: phattboii_
+Joined: 02/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -380,7 +514,7 @@ Joined: 25/06/2024
             general-write-public
             @everyone
 
-Nickname: PamM-Media Liaison Officer
+Nickname: PamM-All Rounder & Awesome
 Global Name: Pam
 Username: majestic_lemur_81545
 Joined: 13/06/2024
@@ -448,7 +582,15 @@ Joined: 10/06/2024
 Nickname: null
 Global Name: Testy McTestFace
 Username: testymctestface_59131
-Joined: 29/06/2024
+Joined: 04/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Breezetones
+Username: breezetones
+Joined: 01/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -479,6 +621,12 @@ Joined: 11/06/2024
             team-viewers
             @everyone
 
+Nickname: null
+Global Name: ANGAH
+Username: angah7629
+Joined: 02/07/2024
+            @everyone
+
 Nickname: Blue_Ivy88(LucieN)
 Global Name: Blue_ivy88
 Username: blue_ivy88
@@ -497,6 +645,14 @@ Joined: 10/06/2024
             @everyone
 
 Nickname: null
+Global Name: Daniel
+Username: hasberg88
+Joined: 30/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
 Global Name: Trish
 Username: trish_26826
 Joined: 27/06/2024
@@ -505,10 +661,19 @@ Joined: 27/06/2024
             @everyone
 
 Nickname: null
+Global Name: Birdman_69
+Username: birdman__69
+Joined: 02/07/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
 Global Name: null
 Username: GrokBot
-Joined: 30/06/2024
+Joined: 03/07/2024
             BOT
+            GROK
             @everyone
 
 Nickname: null
@@ -540,6 +705,14 @@ Nickname: null
 Global Name: damidnightshadow🇦🇺
 Username: damidnightshadow
 Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Andy
+Username: andy065920
+Joined: 01/07/2024
             general-view-public
             general-write-public
             @everyone
@@ -601,7 +774,7 @@ Joined: 10/06/2024
             team-viewers
             @everyone
 
-Nickname: null
+Nickname: Charlie McCracken- Role Wise Adv
 Global Name: Charlie McCracken
 Username: charliemccracken
 Joined: 11/06/2024
@@ -613,6 +786,14 @@ Nickname: Stephen Cordwell
 Global Name: CaptainAwesome
 Username: fellowhuman3000
 Joined: 11/06/2024
+            general-view-public
+            general-write-public
+            @everyone
+
+Nickname: null
+Global Name: Defiantvaper138!
+Username: defiantvaper138
+Joined: 02/07/2024
             general-view-public
             general-write-public
             @everyone
