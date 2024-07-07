@@ -110,6 +110,10 @@ client.on(Events.MessageCreate, async message => {
 	// ignore any messages from BOTs
 	if (message.author.bot) return;
 
+	if (message.content.replace(',','').replace(/\s/g, '').search(/beckybeckybecky/i) != -1){
+		message.channel.send({content: "Say my name!", files: ['./download/becky.jpg'], ephemeral: true })
+	}
+
 	if (message.guild) {
 		let d = new Date();
 		let nameToUse = "";
